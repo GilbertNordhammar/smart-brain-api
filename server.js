@@ -23,6 +23,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(cors())
 
+app.get('/', (req, res) => { res.send('is is working!') })
 app.post('/register', register.handleRegister(db, bcrypt))
 app.post('/signin', signin.handleSignIn(db, bcrypt))
 app.put('/image', image.handleImage(db))
