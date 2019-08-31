@@ -29,7 +29,7 @@ app.put('/image', image.handleImage(db))
 app.post('/faceRecognition', image.handleFaceRecognition())
 app.get('/profile/:id', profile.handleGetProfile(db))
 
-const port = 3001
-app.listen(port, () => {
-    console.log(`app is running on port ${port}`)
+const PORT = process.event.PORT || 3001
+app.listen(PORT, () => {
+    console.log(`app is running on port ${PORT}`)
 })
