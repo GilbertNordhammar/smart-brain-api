@@ -1,11 +1,10 @@
 {
-  "name": "final-project-api",
+  "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "Server API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo heej"
+    "start": "nodemon server.js"
   },
   "author": "Gilbert Nordhammar",
   "license": "ISC",
