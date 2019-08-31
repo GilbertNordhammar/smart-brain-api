@@ -4,7 +4,7 @@
   "description": "Server API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "start:dev": "nodemon fileName.js"
   },
   "author": "Gilbert Nordhammar",
